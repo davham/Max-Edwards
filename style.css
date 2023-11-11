@@ -1,0 +1,46 @@
+header {
+    background-image: url('./images/cover.jpeg');
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+}
+
+.nav {
+    display: inline;
+    margin-right: auto;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.shim {
+    /* utility class to push right side of menu away from edge of browser */
+    margin-right: 30px;
+}
+
+.w3-bar, .w3-bar-block {
+    opacity: 0.6;
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+   }
+
+p a {
+    text-decoration: none;
+}
+.w3-bar-item {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.w3-amber h2 {
+    margin-top: 0;
+}
+
