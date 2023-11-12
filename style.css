@@ -18,7 +18,7 @@ header {
 
 .shim {
     /* utility class to push right side of menu away from edge of browser */
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .w3-bar, .w3-bar-block {
@@ -46,12 +46,21 @@ p a {
     padding: 30px 0;
     font-weight: bold;
 }
+
+.gradient {
+    background-image: linear-gradient(#f4c109, black)
+}
 .sp-feature {
     margin: 0;
 }
-
-footer {
-    margin-top: 0;
-    padding: 25px 0;
+.newsletter input[type=email]{
+    background-color: grey;
+    width: 80%;
 }
+
+.fa-brands {
+    font-size: 40px;  
+    margin-top: 40px;
+}
+
 
