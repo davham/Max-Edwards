@@ -56,8 +56,11 @@ p a {
 .newsletter input[type=email]{
     background-color: grey;
     width: 80%;
-}
+ }
 
+ ::placeholder {
+    color: yellow;
+ }
 .fa-brands {
     font-size: 40px;  
     margin-top: 40px;
